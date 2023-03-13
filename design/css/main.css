@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.bg-container{
+    height: 980px;
+    width: 100%;
+    position: absolute;
+    filter: blur(3px);
+    background-image: url(../image/bg1.jpg);
+    z-index: -1;
+}
+
+body{
+    /* background-image: url(../image/bg1.jpg); */
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    overflow: auto;
+    clear: both;
+    padding: 15px;
+}
+
+.logo img{
+ float: left;
+ width: 90px;
+ padding: 10px 0 0 6.6rem;
+}
+
+nav{
+    float: right;
+}
+
+ul li{
+    display: inline-block;
+    font-size: 20px;
+    padding: 15px 30px;
+}
+
+ul li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    transition: .5s ease-in-out;
+}
+
+ul li button{
+    width: 6rem;
+    height: 2.5rem;
+    border-radius: 6rem;
+    border: 1px solid white;
+    font-size: 15px;
+    color: white;
+    margin-right: 6.6rem;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: .5 ease-in-out;
+}
+
+.main{
+    height: 39rem;
+    width: 30%;
+    padding: 8rem;
+}
+
+h1{
+    font-size: 3rem;
+    color: skyblue;
+}
+
+.main p{
+    margin: 4rem 8rem 4rem 0;
+    font-size: 1.2rem;
+    color: white;
+    text-align: justify;
+}
+
+.main button{
+    height:2.4rem;
+    width: 7.2rem;
+    color: black;
+    border-radius: 6rem;
+    border: 1px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 7rem;
+}
+
+#btn-primary{
+    background-color: #00acee;
+    color: white;
+    border: none;
+    outline: none;
+    margin-right: 1rem;
+}
+
+span{
+    float: left;
+    color: white;
+    font-size: 20px;
+    margin: 2px 20px 0 0;
+}
+
+.icons a img{
+    width: 28px;
+    margin-left: 15px;
+    transition: .4s ease-in;
+}
+
+.hero{
+    position: absolute;
+    z-index: 2;
+    top: 8rem;
+    right: 10rem;
+    width: 70rem;
+}
+
+ul li button:hover{
+    text-transform: uppercase;
+    color: white;
+    background-color: orangered;
+}
+
+#btn-primary:hover{
+    background-color: orangered;
+    color: white;
+}
+
+ul li a:hover{
+    color: white;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.icons img:hover{
+    width: 35px;
+}
